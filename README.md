@@ -39,7 +39,31 @@ Step 2 Remote Access into the Windows 10 VM (VM1) using Remote Desktop Connectio
 
 ![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/f7d4c549-4d9c-415d-adf9-bd617ce7b449)
 
- 
+Step 3 Download and Install Wireshark onto VM1.
+
+![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/cfa89b65-c259-4c49-91da-f536222f137a)
+
+![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/92237819-d0f6-45b0-9c83-e5fe872be516)
+
+Step 4 Open Powershell and wireshark, then filer for ICMP traffic on wireshark. Ping the Private IP of the Ubuntu VM2 and observe the ICMP traffic
+
+![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/a6be752e-0e3a-4a60-ab1a-4c25ae2a1271)
+
+Step 5 Disabling ICMP traffic on VM2 and seeing the ping fail.
+
+![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/f0b09f42-25e7-4187-acd6-fb72687796c8)
+
+![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/71ce4aaa-11ce-466e-bc0c-b959ee6e5acd)
+
+Step 6 SSH into VM2 and create a txt. document.
+
+![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/ba5d605e-0126-40cc-b48c-ddebbfb99b34)
+
+Step 7 Observe DHCP traffic with ipconfig /renew
+
+![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/57f95b66-ffad-4de1-853e-18b5b2254c37)
+
+
 
 
 
