@@ -63,6 +63,14 @@ Step 7 Observe DHCP traffic with ipconfig /renew
 
 ![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/57f95b66-ffad-4de1-853e-18b5b2254c37)
 
+Step 8 DNS looking up IPs for websites
+
+![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/e9e125e9-babb-4928-8495-fbd0b375fd7e)
+
+Step 9 RDP Traffic, since I'm remoting into VM1 this shows that traffic.
+
+![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/7ad6e276-6351-4730-9088-53ff4e0c7032)
+
 
 
 
