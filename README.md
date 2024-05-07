@@ -25,7 +25,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 
-Step 1 Create a Windows 10 VM and an Ubuntu server 20.04. Be sure to put them on the same Vnet
+Step 1 Create a Windows 10 VM and an Ubuntu server 20.04. Be sure to put them on the same Vnet.
 
 ![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/65f8322c-0334-448d-b348-74673ee1c865)
 
@@ -45,7 +45,7 @@ Step 3 Download and Install Wireshark onto VM1.
 
 ![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/92237819-d0f6-45b0-9c83-e5fe872be516)
 
-Step 4 Open Powershell and wireshark, then filer for ICMP traffic on wireshark. Ping the Private IP of the Ubuntu VM2 and observe the ICMP traffic
+Step 4 Open Powershell and wireshark, then filter for ICMP traffic on wireshark. Ping the Private IP of the Ubuntu VM2 and observe the ICMP traffic
 
 ![image](https://github.com/KitchReeves/azure-network-protocols/assets/158783649/a6be752e-0e3a-4a60-ab1a-4c25ae2a1271)
 
